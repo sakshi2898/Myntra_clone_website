@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    font-size: 12px;
 }
 
 .nav-logo img{
@@ -21,11 +23,11 @@
 }
 
 .nav-links a{
-    font-size: 14px;
     color: #282C3F;
     text-decoration: none;
     margin-left: 35px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .nav-search {
@@ -49,4 +51,52 @@
     height: 30px;
     color: #696e79;
     background: #f5f5f6;
+}
+
+.myntra-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+}
+
+.myntra-section p {
+    font-size: 10px;
+}
+
+.nav-links sup {
+    color: #FF3F6C;
+    font-size: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    margin: 20px 30px 0 30px;
 }
