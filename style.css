@@ -71,26 +71,6 @@
     font-size: 10px;
 }
 
-.profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.wishlist {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.bag {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .hero-banner {
     display: flex;
     justify-content: space-evenly;
